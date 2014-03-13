@@ -9,7 +9,7 @@ class Color{
 		$this->green = $green;
 		$this->blue = $blue;
 	}
-	public function createFromArray($colorArray){
+	public static function createFromArray($colorArray){
 		return new Color($colorArray['red'],$colorArray['green'],$colorArray['blue']);
 	}
 	public function getHTMLCode(){

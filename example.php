@@ -1,4 +1,5 @@
 <?php 
+include_once("ColorExtractor.php");
 
 $colorExtractor = ColorExtractor::createFromURL("HueColorExtractor", "Tulips.jpg");
 $color = $colorExtractor->extract();
